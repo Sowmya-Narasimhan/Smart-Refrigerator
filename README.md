@@ -1,4 +1,4 @@
-# "Smart Refrigerator System using RFID"
+# Smart Refrigerator System using RFID
 ---
 
 ## Project Overview
