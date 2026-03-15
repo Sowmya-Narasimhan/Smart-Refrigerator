@@ -1,16 +1,7 @@
----
-title: "Smart Refrigerator System using RFID"
-author: "Sowmya N"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    theme: united
-    toc: true
-    toc_float: true
-    number_sections: true
+# "Smart Refrigerator System using RFID"
 ---
 
-# Project Overview
+## Project Overview
 
 The Smart Refrigerator System using RFID is designed to automate the process of monitoring food items stored inside a refrigerator. Traditional refrigerators require manual tracking of stored items and expiration dates, which can lead to food wastage or forgetting stored products.
 
@@ -18,7 +9,7 @@ This project uses RFID technology to identify and track food items placed inside
 
 ---
 
-# Objectives
+## Objectives
 
 * To automate food inventory tracking inside a refrigerator.
 * To reduce food wastage by monitoring stored items.
@@ -27,7 +18,7 @@ This project uses RFID technology to identify and track food items placed inside
 
 ---
 
-# Technologies Used
+## Technologies Used
   * ESP32: Microcontroller for system control
   * RFID RC522 Module:Identification of tagged items
   * RFID Tags: Unique identification for food items
@@ -36,7 +27,7 @@ This project uses RFID technology to identify and track food items placed inside
   
 ---
 
-# System Architecture
+## System Architecture
 
 The system consists of an RFID reader connected to a microcontroller. Each food item is associated with an RFID tag. When an item is placed near the RFID reader, the system reads the tag ID and checks the stored database of items.
 
@@ -53,9 +44,9 @@ System workflow:
 
 ---
 
-# Implementation
+## Implementation
 
-## Hardware Components
+### Hardware Components
 
 * Esp32
 * RFID RC522 Reader
@@ -64,7 +55,7 @@ System workflow:
 * Breadboard
 * Power supply
 
-## Working Principle
+### Working Principle
 
 The RFID reader continuously scans for RFID tags placed within its range. When a tagged item is detected, the reader retrieves the tag's unique identification number. The microcontroller compares this ID with predefined IDs stored in the program.
 
@@ -72,7 +63,7 @@ If a match is found, the corresponding food item information is displayed on the
 
 ---
 
-# Results
+## Results
 
 The system successfully identifies RFID tags attached to food items and displays the item information on the LCD screen. The RFID-based system simplifies inventory tracking and reduces manual effort.
 
