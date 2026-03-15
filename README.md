@@ -1,6 +1,6 @@
 # Smart Refrigerator
 
-Project Overview
+## Project Overview
 
 The Smart Refrigerator System using RFID is designed to automate the process of monitoring food items stored inside a refrigerator. Traditional refrigerators require manual tracking of stored items and expiration dates, which can lead to food wastage or forgetting stored products.
 
@@ -8,7 +8,7 @@ This project uses RFID technology to identify and track food items placed inside
 
 ---
 
-Objectives
+## Objectives
 
 * To automate food inventory tracking inside a refrigerator.
 * To reduce food wastage by monitoring stored items.
@@ -17,7 +17,7 @@ Objectives
 
 ---
 
-Technologies Used
+## Technologies Used
   * ESP32: Microcontroller for system control
   * RFID RC522 Module:Identification of tagged items
   * RFID Tags: Unique identification for food items
